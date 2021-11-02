@@ -1,0 +1,21 @@
+.main {
+  background : #555;
+   
+  .art {
+    padding: 1.5rem;
+    background: rgb(14, 23, 155);
+    color: rgb(168, 14, 14);
+
+    h1{
+      font-size: 32px;
+      font-family: Arial, Helvetica, sans-serif;
+      transition: 0.3s;
+      animation : fadeIn 1s linear;
+    }
+
+    @keyframes fadeIn {
+      from{opcity: 0}
+      to{opacity: 1;}
+    }
+  }
+}
